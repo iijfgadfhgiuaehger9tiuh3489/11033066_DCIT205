@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 600px; /* Adjust the logo size */
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    border-radius: 70px;
+    height: 700px;
+}
+
+.about-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+.about-main {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.about-main h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.about-main p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
